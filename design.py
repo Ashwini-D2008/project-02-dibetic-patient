@@ -3,8 +3,8 @@ import numpy as np
 import pandas as pd
 import pickle
 
-model = pickle.load(open("model.pkl", 'rb'))
-sc = pickle.load(open("sc.pkl", 'rb'))
+model = pickle.load(open("data.pkl", 'rb'))
+sc = pickle.load(open("Std.pkl", 'rb'))
 
 
 st.title("Diabetic Patient Prediction")
